@@ -27,6 +27,7 @@ jobs:
           labels: automerge
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
       - id: automerge
         name: automerge
         uses: "pascalgn/automerge-action@v0.16.3" 
