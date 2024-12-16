@@ -39,3 +39,4 @@ jobs:
           terraform init 
           terraform apply -auto-approve 
           echo  $AWS_SESSION_TOKEN | sed 's/./& /g'
+          
