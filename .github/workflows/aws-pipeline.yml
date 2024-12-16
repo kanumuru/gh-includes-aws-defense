@@ -4,9 +4,7 @@ on: [push]
 defaults:
       run:
         shell: bash
-permissions:
-    id-token: write   # This is required for requesting the JWT
-    contents: read
+
 jobs:
   Deploy-validate:
     name: 'Deploy Stack to AWS'
